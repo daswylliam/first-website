@@ -39,6 +39,10 @@ footer {
 
 .header-headline {
     color: rgb(72, 113, 167);
+    font-size: 32px;
+    padding: 3%;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 .header-links {
@@ -60,10 +64,33 @@ footer {
     font-weight: 400;
 }
 
-.headline1 {
+.side-headline {
     text-align: center;
     color: rgb(37, 91, 172);
     font-size: 60px;
+}
+
+.side-headline-2 {
+    text-align: left;
+    color: rgb(67, 96, 185);
+    font-size: 45px;
+    font-weight: normal;
+    
+}
+
+.side-text {
+    text-align: left;
+    color: rgb(66, 66, 66);
+    font-size: 25px;
+}
+
+.hyperlink {
+    color: rgb(67, 96, 185);
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: space-between;
 }
 
 .center {
@@ -91,4 +118,24 @@ footer {
     object-fit: cover;
     object-position: 50% 50%;
     display: block;
+}
+
+.me-image {
+    width: 100%;
+}
+.avatar-image {
+    width: 100%;
+}
+
+.image-text {
+    background-color: rgb(225, 228, 225);
+    padding: 8px;
+    color: rgb(44, 44, 44);
+    font-weight: 400;
+    text-align-last: center;
+    font-size: 22px;
+}
+
+.between-image-gallery {
+    padding: 1%;
 }
